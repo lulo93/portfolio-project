@@ -10,6 +10,9 @@
 body {
   font-family: var(--default-font-family);
   color: var(--primary-color);
+  max-width: 1400px;
+  display: block;
+  margin: 0 auto;
 }
 
 h1,
