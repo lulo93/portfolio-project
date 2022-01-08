@@ -81,6 +81,10 @@ p {
   padding: 120px 60px;
 }
 
+.luisa {
+  max-width: 300px;
+  padding: 30px;
+}
 @media (max-width: 960px) {
   .hero {
     padding: 80px 20px;
