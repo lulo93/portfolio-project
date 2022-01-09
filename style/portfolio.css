@@ -1,7 +1,13 @@
 :root {
   --branding-color: #6d8df5;
   --primary-color: #241d3f;
-  --secondary-color: #c6deee;
+  --secondary-color: radial-gradient(
+    circle at 10% 20%,
+    rgba(91, 173, 254, 0.46) 0%,
+    rgba(91, 224, 254, 0.46) 47.2%,
+    rgba(170, 254, 235, 0.43) 90%
+  );
+
   --btn-font-color: #fff;
   --heading-font-family: "Blinker", sans-serif;
   --default-font-family: "Playfair Display", serif;
@@ -103,4 +109,10 @@ p {
     padding: 0;
     text-align: center;
   }
+}
+
+.contact-hero {
+  background: var(--secondary-color);
+  text-align: center;
+  padding: 80px 0;
 }
