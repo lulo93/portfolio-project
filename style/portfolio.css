@@ -7,7 +7,6 @@
     rgba(91, 224, 254, 0.46) 47.2%,
     rgba(170, 254, 235, 0.43) 90%
   );
-
   --btn-font-color: #fff;
   --heading-font-family: "Blinker", sans-serif;
   --default-font-family: "Playfair Display", serif;
@@ -36,6 +35,64 @@ h6 {
 h1 {
   font-size: 76px;
   line-height: 1.5;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.introduction {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  color: #313131;
+  font-weight: bold;
+  -webkit-animation: colorchange 20s infinite alternate;
+}
+
+@-webkit-keyframes colorchange {
+  0% {
+    color: #c6ffff;
+  }
+
+  10% {
+    color: #00bfff;
+  }
+
+  20% {
+    color: #008cff;
+  }
+
+  30% {
+    color: #3232dd;
+  }
+
+  40% {
+    color: #c8c8f8;
+  }
+
+  50% {
+    color: #aa56ce;
+  }
+
+  60% {
+    color: #7536e9;
+  }
+
+  70% {
+    color: #04cdff;
+  }
+  80% {
+    color: #8bf7e1;
+  }
+
+  90% {
+    color: #12e9b3;
+  }
+
+  100% {
+    color: #ffdab9;
+  }
 }
 
 h2 {
@@ -130,4 +187,11 @@ footer {
   text-align: center;
   padding: 40px 0;
   margin: auto;
+}
+.link-icons {
+  color: #fff;
+}
+
+.contact-link {
+  text-decoration: none;
 }
