@@ -36,6 +36,14 @@ h1 {
   line-height: 1.5;
 }
 
+h2 {
+  font-size: 50px;
+}
+
+h5 {
+  color: var(--primary-color);
+}
+
 .center {
   margin: 0 auto;
 }
@@ -94,10 +102,6 @@ h1 {
   }
 }
 
-h2 {
-  font-size: 50px;
-}
-
 p {
   font-weight: normal;
   font-size: 14px;
@@ -107,7 +111,7 @@ p {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 160px 0;
+  padding: 140px 0;
 }
 
 .hero h2 {
@@ -139,6 +143,50 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+
+.arrow,
+.arrow:before {
+  position: absolute;
+  left: 50%;
+  top: 102%;
+}
+
+.arrow {
+  width: 30px;
+  height: 30px;
+  bottom: 2%;
+  margin: -20px 0 0 -20px;
+  transform: rotate(45deg);
+  border-left: none;
+  border-top: none;
+  border-right: 2px var(--primary-color) solid;
+  border-bottom: 2px var(--primary-color) solid;
+}
+
+.arrow:before {
+  content: "";
+  width: 18px;
+  height: 18px;
+  top: 50%;
+  margin: -10px 0 0 -10px;
+  border-left: none;
+  border-top: none;
+  border-right: 1px var(--primary-color) solid;
+  border-bottom: 1px var(--primary-color) solid;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-name: arrow;
+}
+
+@keyframes arrow {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-10px, -10px);
+  }
 }
 
 .img-fluid {
@@ -183,6 +231,21 @@ p {
   background: var(--secondary-color);
   text-align: center;
   padding: 80px 0;
+}
+
+.project-carousel {
+  display: block;
+  margin: 0 auto;
+  max-width: 700px;
+  border: 5px;
+  border-color: var(--branding-color);
+  box-shadow: var(--box-shadow-white);
+}
+
+.samba-title {
+  text-align: left;
+  position: relative;
+  right: 40px;
 }
 
 .contact-hero {
