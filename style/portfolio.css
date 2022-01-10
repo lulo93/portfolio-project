@@ -15,7 +15,6 @@
 body {
   font-family: var(--default-font-family);
   color: var(--primary-color);
-  max-width: 1400px;
   display: block;
   margin: 0 auto;
   background: #f1efef;
@@ -142,6 +141,16 @@ p {
   padding: 15px 30px;
 }
 
+.img-fluid {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.img-fluid:hover {
+  -webkit-filter: grayscale(0) !important;
+  filter: grayscale(0) !important;
+}
+
 .project-description {
   padding: 120px 60px;
 }
@@ -170,6 +179,12 @@ p {
   }
 }
 
+.about-me-hero {
+  background: var(--secondary-color);
+  text-align: center;
+  padding: 80px 0;
+}
+
 .contact-hero {
   background: var(--secondary-color);
   text-align: center;
@@ -194,4 +209,5 @@ footer {
 
 .contact-link {
   text-decoration: none;
+  color: var(--primary-color);
 }
