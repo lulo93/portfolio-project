@@ -387,6 +387,11 @@ h3:before {
   box-shadow: var(--box-shadow-white);
 }
 
+#project-img {
+  box-shadow: #241d3f63 6px 12px 12px 6px;
+  border-radius: 5px;
+}
+
 .samba-title {
   text-align: left;
   position: relative;
