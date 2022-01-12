@@ -49,6 +49,10 @@ h6 a {
   color: var(--primary-color);
 }
 
+p {
+  font-size: 25px;
+}
+
 .center {
   margin: 0 auto;
   text-align: center;
@@ -117,7 +121,7 @@ p {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 140px 0;
+  padding: 250px 0;
 }
 
 .hero h2 {
@@ -166,7 +170,7 @@ p {
 .arrow:before {
   position: absolute;
   left: 50%;
-  top: 102%;
+  top: 80%;
 }
 
 .arrow {
@@ -220,10 +224,13 @@ p {
   padding: 120px 60px;
 }
 
-.luisa {
-  max-width: 300px;
-  padding: 30px;
+#luisa {
+  display: flex;
+  justify-content: right;
+  max-width: 350px;
+  padding: 50px;
 }
+
 @media (max-width: 960px) {
   .hero {
     padding: 100px 20px;
@@ -255,8 +262,21 @@ p {
   padding: 85px 0;
 }
 
+.about-me-hero h1 {
+  padding: 50px 25px 15px 25px;
+}
+
+.about-me-hero p {
+  padding: 0 80px 30px 80px;
+}
+
 .about-me {
   color: var(--primary-color);
+}
+
+.skills-competencies {
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 h3 {
