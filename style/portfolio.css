@@ -293,7 +293,7 @@ footer {
   padding: 30px;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 965px) {
   .hero {
     padding: 100px 20px;
   }
@@ -310,6 +310,13 @@ footer {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+
+  .arrow,
+  .arrow:before {
+    position: absolute;
+    left: 50%;
+    top: 60%;
   }
 }
 
