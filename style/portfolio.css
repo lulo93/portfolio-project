@@ -295,12 +295,13 @@ footer {
 
 @media (max-width: 965px) {
   .hero {
-    padding: 100px 20px;
+    padding: 155px 20px;
   }
 
   h1 {
     font-size: 55px;
     line-height: 2;
+    padding: 0px;
   }
 
   h2 {
@@ -316,7 +317,7 @@ footer {
   .arrow:before {
     position: absolute;
     left: 50%;
-    top: 60%;
+    top: 68%;
   }
 }
 
