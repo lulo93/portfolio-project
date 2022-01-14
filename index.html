@@ -30,40 +30,25 @@
     <title>Front-End Developer portfolio - Luisa Rua Estrada homepage</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-      <div class="container">
-        <a class="navbar-brand" title="Homepage" href="index.html">Lu 💫</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html"
-               title="Homepage" >Homepage</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about-me.html" title="About Luisa">About me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="projects.html" title="Luisa's work">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html" title="Contact Luisa">Get in contact</a>
-            </li>
-          </ul>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
+<div class="nav" id="mynav">
+        <div class="logo">
+            <a href="index.html">
+                Lu 💫
+            </a>
         </div>
-      </div>
-    </nav>
+        <ul class="menu-list">
+            <li><a id="nav-link-active" href="index.html">Home</a></li>
+            <li><a href="about-me.html">About me</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+   </div>  
     <div class="hero">
       <p>Hello! I am</p>
 
@@ -239,6 +224,6 @@
         <h6><a href="https://github.com/lulo93/portfolio-project">Open source code</a> by Luisa Rua Estrada</h6>
       </div>
     </footer>
-    <script src="src/animation.js/"></script>
+    <script src="java.js"></script>
   </body>
 </html>
